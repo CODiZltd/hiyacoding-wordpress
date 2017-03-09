@@ -1,0 +1,504 @@
+/**
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary:
+ *
+ *    1. RESPONSIVE SCREEN
+ *		  - 1.0. Responsive for layout boxed style
+ *        - 1.1. Media screen max width 1600px
+ *        - 1.2. Media screen max width 1024px
+ *        - 1.3. Media screen max width 768px
+ *        - 1.4. Media screen max width 767px
+ *        - 1.5. Media screen max width 600px
+ *        - 1.6. Media screen max width 480px
+ *        - 1.7. Media screen max width 380px
+ *        - 1.8. Media screen max width 320px
+ */
+
+
+
+/*=========================================
+=            RESPONSIVE SCREEN            =
+==========================================*/
+
+    /*----------  1.0. Responsive for layout boxed style  ----------*/
+
+        @media (min-width:992px) and (max-width:1023px) {
+            .body-wrapper.style-boxed {
+                width: auto!important
+            }
+            .body-wrapper.style-boxed .header-middle {
+                width: auto;
+            }
+        }
+
+        @media (min-width:1024px) and (max-width:1199px) {
+            .body-wrapper.style-boxed {
+                width: 1000px!important
+            }
+            .body-wrapper.style-boxed .header-middle {
+                width: 1000px;
+            }
+            .body-wrapper.style-boxed .container {
+                width: 100%
+            }
+        }
+
+        @media (min-width:1200px) {
+            .body-wrapper.style-boxed .container {
+                width: 100%
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+        	 /*boxed style*/
+            .body-wrapper.style-boxed {
+                width: auto!important
+            }
+
+            .body-wrapper.style-boxed .header-middle {
+                width: auto;
+            }
+        }
+
+/*----------  1.1. Media screen max width 1600px  ----------*/
+
+
+/*----------  1.2. Media screen max width 1024px  ----------*/
+    @media screen and (max-width: 1024px) {
+        .content-wrapper-404 .container {
+            max-height: 600px;
+        }
+        .sc_progress_bar .slz-list-block.slz-column-4 > .item {
+            width: 50%;
+        }
+        .sc_progress_bar .slz-list-block.slz-column-4 > .item:nth-child(-n + 4) {
+            margin-top: 50px;
+        }
+        .sc_progress_bar .slz-list-block.slz-column-4 > .item:nth-child(-n + 2) {
+            margin-top: 0;
+        }
+        .slz-widget-post-slider ul.slick-dots li {
+            padding: 15px 0;
+        }
+
+        .slz-progress-bar-01.style-4 .progress-title{
+            left:10px;
+            transform: translateX(0);
+            -webkit-transform: translateX(0); 
+        }
+    }
+
+/*----------  1.3. Media screen max width 768px  ----------*/
+    @media screen and (max-width: 768px) {
+
+        /*----------  isotope  ----------*/
+        .slz-isotope-grid-2.column-3 .grid-item,
+        .slz-isotope-grid-2.column-4 .grid-item,
+        .slz-isotope-grid-2.column-5 .grid-item,
+        .slz-isotope-grid-2.column-3 .grid-item-width-2,
+        .slz-isotope-grid-2.column-4 .grid-item-width-2,
+        .slz-isotope-grid-2.column-5 .grid-item-width-2 {
+            width: calc(50% - 30px);
+        }
+
+        .slz-isotope-grid-2.column-3 .grid-item-width-2:before,
+        .slz-isotope-grid-2.column-4 .grid-item-width-2:before,
+        .slz-isotope-grid-2.column-5 .grid-item-width-2:before,
+        .slz-isotope-grid-2.column-3 .grid-item-height-2:before,
+        .slz-isotope-grid-2.column-4 .grid-item-height-2:before,
+        .slz-isotope-grid-2.column-5 .grid-item-height-2:before,
+        .slz-isotope-grid-2.column-3 .grid-item-height-1:before,
+        .slz-isotope-grid-2.column-4 .grid-item-height-1:before,
+        .slz-isotope-grid-2.column-5 .grid-item-height-1:before {
+           padding-top: 60%; 
+        }
+
+        /*----------  contact form  ----------*/
+        .cf7-input-25 {
+            width: 50%;
+        }
+
+        .banner-subcribe.slz-banner-01 {
+            padding: 60px 0;
+        }
+        
+        .banner-subcribe .title {
+            font-size: 24px;
+        }
+    }
+
+/*----------  1.3. Media screen max width 767px  ----------*/
+    @media screen and (max-width: 767px) {
+
+    /*----------  isotope  ----------*/
+        .slz-isotope-grid-2 {
+            margin: 0 -10px;
+        }
+
+        .slz-isotope-grid-2 .grid-item {
+            margin: 10px;
+        }
+
+        .slz-isotope-grid-2.column-3 .grid-item,
+        .slz-isotope-grid-2.column-4 .grid-item,
+        .slz-isotope-grid-2.column-5 .grid-item,
+        .slz-isotope-grid-2.column-3 .grid-item-width-2,
+        .slz-isotope-grid-2.column-4 .grid-item-width-2,
+        .slz-isotope-grid-2.column-5 .grid-item-width-2 {
+            width: calc(50% - 20px);
+        }
+        .slz-blog-detail .slz-related-post .slz-carousel-wrapper .slz-carousel {
+            margin: 0;
+        }
+
+        .slz-blog-detail .teams-detail-wrapper .slz-about-me-02 .image-wrapper {
+            display: block;
+            margin: 0 auto 30px;
+        }
+        .slz-blog-detail .teams-detail-wrapper .slz-about-me-02 .content-wrapper {
+            display: block;
+            width: 100%;
+            padding-left: 0;
+            text-align: center;
+        }
+        .slz-template-02.style-no-image .main-layout {
+            width: 100%;
+        }
+        .slz-template-02.style-no-image .list-layout {
+            width: 100%;
+            padding-left: 0;
+            margin-top: 30px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .slz-template-02.style-no-image .list-layout .element{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .style-no-image .list-layout .slz-block-item-01.style-2 {
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+
+        .slz-map-01 {
+            height: 350px;
+        }
+        .slz-main-title .title {
+            font-size: 28px;
+            line-height: 1.4;
+        }
+        .slz-main-title .subtitle {
+            font-size: 60px;
+        }
+        .slz-project-carousel.slz-carousel-wrapper {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        /*----------  contact form  ----------*/
+        .sc-contact-form form {
+            margin: 0 -10px;
+        }
+        .sc-contact-form .cf7-input-25, 
+        .sc-contact-form .cf7-input-50, 
+        .sc-contact-form .cf7-input-100 {
+            padding: 0 10px;
+            margin-bottom: 20px;
+        }
+
+        .slz-footer-main {
+            padding: 80px 0;
+        }
+
+        .vc_custom_1482985986648 {
+            padding-right: 15px !important;
+        }
+
+        .vc_custom_1482985979273 {
+            padding-left: 15px !important;
+        }
+    }
+
+/*----------  1.4. Media screen max width 600px  ----------*/
+    @media screen and (max-width: 600px) {
+        .slz-blog-detail .teams-detail-wrapper .slz-block-team-03 .slz-info-block .info-item {
+            display: block;
+            padding-right: 0;
+        }
+        .slz-block-video .btn-play {
+            top: calc(50% - 30px);
+        }
+        .slz-block-video .title {
+            top: calc(50% + 30px);
+        }
+
+        .slz-blog-detail .project-detail-wrapper .slz-featured-block {
+            margin-bottom: 20px;
+        }
+    }
+
+/*----------  1.5. Media screen max width 480px  ----------*/
+    @media screen and (max-width: 480px) {
+        .slz-blog-detail .slz-blog-author .media-right {
+            padding-left: 0;
+        }
+        .slz-blog-detail .slz-blog-author .media-right .author {
+            float: none;
+            display: block;
+        }
+        .slz-blog-detail .slz-blog-author .media-right .author-web {
+            float: none;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .slz-blog-detail .service-detail-wrapper .title {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .slz-blog-detail .service-detail-wrapper .entry-content {
+            margin-top: 25px;
+        }
+        .slz-blog-detail .teams-detail-wrapper .slz-about-me-02 .block-wrapper {
+            padding: 50px 20px;
+        }
+        .slz-blog-detail .recruitment-detail-wrapper .slz-featured-block .block-info li {
+            display: block;
+            width: 100%;
+        }
+        .content-wrapper-404 .page-404-content .title {
+            font-size: 36px;
+        }
+        .content-wrapper-404 .page-404-content .search-field {
+            width: 300px;
+        }
+        .slz-blog-detail > .title,
+        .slz-blog-detail .blog-detail-wrapper > .title {
+            font-size: 20px;
+        }
+        .audio-wrapper .mejs-container {
+            padding: 20px 0;
+        }
+        .slz-block-item-01 .block-image.has-quote,
+        .slz-blog-detail .blog-detail-wrapper .block-image.has-quote {
+            padding: 80px 30px 30px;
+        }
+        .slz-block-item-01 .block-image.has-quote .block-quote-wrapper .block-quote:before,
+        .slz-blog-detail .blog-detail-wrapper .block-image.has-quote .block-quote-wrapper .block-quote:before {
+            top: -60px;
+        }
+        .slz-main-title .title {
+            font-size: 24px;
+        }
+        .slz-main-title .subtitle {
+            font-size: 50px;
+        }
+        .slz-main-title img + .subtitle, 
+        .slz-main-title i + .subtitle, 
+        .slz-main-title img + .subtitle, 
+        .slz-main-title i + .subtitle {
+            top: calc(50% + 15px);
+        }
+
+        /*----------  post block  ----------*/
+        .col-md-8.slz-posts .slz-list-block.slz-column-1 .slz-block-item-01 .block-title, 
+        .col-md-12.slz-posts .slz-list-block.slz-column-1 .slz-block-item-01 .block-title, 
+        .vc_col-sm-8 .slz-list-block.slz-column-1 .slz-block-item-01 .block-title, 
+        .sc_portfolio_list .slz-list-block.slz-column-1 .slz-block-item-01 .block-title,
+        .main-layout .block-title,
+        .list-layout .block-title,
+        .sc_portfolio_list.layout-2 .slz-list-block .item:first-child .block-title {
+            font-size: 18px;
+        }
+
+        .slz-footer-main {
+            padding: 60px 0;
+        }
+
+        .col-md-8 .slz-list-block.slz-column-1 > .item:first-child, 
+        .col-md-12 .slz-list-block.slz-column-1 > .item:first-child {
+            margin-top: 0;
+        }
+
+        .col-md-8 .slz-list-block.slz-column-1 > .item, 
+        .col-md-12 .slz-list-block.slz-column-1 > .item,
+        .col-md-8 .slz-list-block.slz-column-2 > .item, 
+        .col-md-12 .slz-list-block.slz-column-2 > .item {
+            margin-top: 30px;
+        }
+
+        .col-md-8 .slz-list-block.slz-column-2 > .item:nth-child(-n + 2), 
+        .col-md-12 .slz-list-block.slz-column-2 > .item:nth-child(-n + 2) {
+            margin-top: 30px;
+        }
+
+        .col-md-8 .slz-list-block.slz-column-2 > .item:first-child, 
+        .col-md-12 .slz-list-block.slz-column-2 > .item:first-child {
+            margin-top: 0;
+        }
+
+        .vc_custom_1482999740442 .sc-contact-form .cf7-btn-submit-wrapper {
+            text-align: center;
+        }
+
+        .slz-carousel-wrapper .slick-dotted.slick-slider,
+        .slz-image-carousel .slick-dotted.slick-slider {
+            margin-bottom: 30px;
+        }
+        
+        .slz-carousel-wrapper .slick-dots,
+        .slz-image-carousel .slick-dots {
+            bottom: -25px;
+        }
+        .sc_progress_bar .slz-list-block.slz-column-4 > .item {
+            width: 100%;
+        }
+        .sc_progress_bar .slz-list-block.slz-column-4 > .item:nth-child(-n + 2) {
+            margin-top: 50px;
+        }
+        .sc_progress_bar .slz-list-block.slz-column-4 > .item:nth-child(-n + 1) {
+            margin-top: 0;
+        }
+
+        .banner-subcribe.slz-banner-01 {
+            padding: 30px 0;
+        }
+
+        .slz-banner-01 .title {
+            font-weight: 600;
+        }
+
+        .sc-contact-form.ctf-box-shadow .wpcf7 {
+            padding: 20px !important;
+        }
+
+        .blog-detail-wrapper .block-info + .entry-content {
+            margin-top: 10px;
+        }
+
+        .slz-related-post .slz-block-item-01.style-2 .block-image {
+            width: 100%;
+        }
+
+        .slz-blog-detail .slz-related-post .slz-carousel-wrapper .item {
+            padding: 15px;
+        }
+
+        .slz-block-item-01.style-2 .block-image + .block-content {
+            padding: 20px 0 0 0;
+        }
+
+        .slz-related-post .slz-block-item-01.style-2 .block-image:before {
+            padding-top: 60%;
+        }
+
+        .slz-blog-detail.layout-4 > .block-image:before {
+            padding-top: 60%;
+        }
+
+        .sc_portfolio_list .slz-block-item-01.style-2 .block-image + .block-content {
+            padding: 20px;
+        }
+
+        .slz-widget-contact-form .service-form .cf7-btn-submit i.btn-icon.fa.fa-angle-right {
+            right: 60px;
+        }
+
+        .sc_portfolio_list.layout-2  .slz-list-block.slz-column-3 > .item:nth-last-child(-n + 2) {
+            margin-bottom: 30px;
+        }
+
+        .sc_portfolio_list.layout-2  .slz-list-block.slz-column-3 > .item:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+/*----------  1.6. Media screen max width 414px  ----------*/
+    @media screen and (max-width: 414px) {
+        .slz-map-01 {
+            height: 450px;
+        }
+
+        /*----------  contact form  ----------*/
+        .sc-contact-form .cf7-input-25, .sc-contact-form .cf7-input-50 {
+            width: 100%;
+        }
+
+        .slz-block-item-01 .block-image.has-quote, .slz-blog-detail .blog-detail-wrapper .block-image.has-quote {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+/*----------  1.7. Media screen max width 380px  ----------*/
+    @media screen and (max-width: 380px) {
+
+        .slz-isotope-grid-2.column-3 .grid-item-width-2:before,
+        .slz-isotope-grid-2.column-4 .grid-item-width-2:before,
+        .slz-isotope-grid-2.column-5 .grid-item-width-2:before,
+        .slz-isotope-grid-2.column-3 .grid-item-height-2:before,
+        .slz-isotope-grid-2.column-4 .grid-item-height-2:before,
+        .slz-isotope-grid-2.column-5 .grid-item-height-2:before,
+        .slz-isotope-grid-2.column-3 .grid-item-height-1:before,
+        .slz-isotope-grid-2.column-4 .grid-item-height-1:before,
+        .slz-isotope-grid-2.column-5 .grid-item-height-1:before {
+           padding-top: 80%;
+        }
+        .content-wrapper-404 .page-404-content .title {
+            font-size: 26px;
+        }
+        .content-wrapper-404 .page-404-content .search-field {
+            width: 200px;
+        }
+        .slz-main-title .title {
+            font-size: 20px;
+        }
+        .slz-main-title .subtitle {
+            font-size: 40px;
+        }
+
+        .content-wrapper.content-wrapper-404 .search-form .search-field{
+            width: 280px;
+        }
+        .content-wrapper.content-wrapper-404 .search-form .search-submit{
+            width: 60px;
+        }
+        .content-wrapper.content-wrapper-404 .subtitle h3{
+            font-size: 22px;
+        }
+    }
+
+/*----------  1.8. Media screen max width 320px  ----------*/
+    @media screen and (max-width: 320px) {
+        .main-layout .block-title, .list-layout .block-title, .slz-template-03 .block-title {
+            font-size: 18px;
+        }
+
+        .slz-accordion-group .panel-heading .check-data-collapsed span{
+            font-size: 16px;
+        }
+
+        .content-wrapper.content-wrapper-404 .search-form .search-field{
+            width: 220px;
+        }
+        .content-wrapper.content-wrapper-404 .search-form .search-submit{
+            width: 60px;
+        }
+        .content-wrapper.content-wrapper-404 .subtitle h3{
+            font-size: 20px;
+        }
+    }
+    
+/*=====  End of RESPONSIVE SCREEN  ======*/
+
+
+/*===========================
+    =            WOO            =
+    ===========================*/
+       
+    
+    
+    /*=====  End of WOO  ======*/

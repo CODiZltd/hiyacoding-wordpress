@@ -1,0 +1,68 @@
+
+
+/*===================================
+=            Accordition            =
+===================================*/
+	.panel-body {
+		padding: 0;
+	}
+
+	.slz-accordion-group .panel {
+		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0);
+	}
+	.slz-accordion-group .panel-body {
+		color: #7b7b7b;
+		font-size: 15px;
+		padding-top: 20px;
+	}
+	.slz-accordion-group .panel-heading .check-data-collapsed span{
+	   color:#333;
+	   font-family: 'Poppins', sans-serif;
+	   font-size: 18px;
+	   padding-right: 40px;
+	   max-width: calc(100% - 60px);
+	   padding: 10px 0px;
+	}
+	.slz-accordion-group .accordion-panel + .accordion-panel{
+		margin-top: 0;
+	}
+	.slz-accordion-group .accordion-panel.panel{
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		margin-top: 30px;
+		background-color: transparent;
+	}
+	.slz-accordion-group .accordion-panel .panel-heading{
+		border-bottom: 1px solid #ddd;
+	}
+	.slz-accordion-group .panel-collapse{
+		border-top: none;
+	}
+	.slz-accordion-group .accordion-panel{
+		border: none;
+	}
+	.slz-accordion-group .accordion-panel .panel-heading{
+		background-color: transparent;
+	}
+	.slz-accordion-group .accordion-panel .panel-heading .icon-plus,
+	.slz-accordion-group .panel-heading .icon-arrow{
+		border: 1px solid #ddd;
+		background-color: #ebebeb;
+		padding: 6px 12px;
+	}
+	.slz-accordion-group .panel-heading.active_panel a i{
+		color: #31c290;
+	}
+	.slz-accordion-group .panel-heading a span{
+		font-weight: 700;
+	}
+	.slz-accordion-group .slz-main-title .title{
+		font-family: 'Poppins', sans-serif;
+	}
+
+	.panel-heading.icons-left .icon-plus,
+	.panel-heading.icons-left .icon-arrow {
+		margin-right: 10px;
+	}
+/*=====  End of Accordition  ======*/

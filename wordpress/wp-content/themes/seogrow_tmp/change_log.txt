@@ -1,0 +1,30 @@
+== Changelog ==
+= 1.1 - 11 January 2017 =
+
+seogrow/framework-customizations/extensions/shortcodes/shortcodes/map/static/js/map.js
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-about-me.css
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-footer.css
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-header.css
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-icon-box.css
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-portfolio.css
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-post-block.css
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-pricing-box.css
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-team.css
+seogrow/framework-customizations/extensions/shortcodes/static/css/seogrow-widget.css
+seogrow/framework-customizations/extensions/teams/shortcodes/team-list/views/layout-1.php
+seogrow/framework-customizations/extensions/teams/shortcodes/team-list/views/layout-2.php
+seogrow/framework-customizations/extensions/templates/templates/ribbon-format/config.php
+seogrow/framework-customizations/extensions/templates/templates/ribbon-format/views/view.php
+seogrow/framework-customizations/theme/manifest.php
+seogrow/framework-customizations/theme/options/general-settings.php
+seogrow/framework-customizations/theme/views/change-log.php
+seogrow/header.php
+seogrow/includes/constants.php
+seogrow/includes/helpers.php
+seogrow/includes/static.php
+seogrow/static/css/default.css
+seogrow/static/css/layout.css
+seogrow/static/css/responsive.css
+seogrow/static/css/theme-admin.css
+seogrow/static/js/main.js
+seogrow/style.css

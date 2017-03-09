@@ -1,0 +1,248 @@
+/**
+*
+*
+*  STYLE FOR PROGRESS BAR
+*
+*  1. PROGRESS BAR LAYOUT 1
+*       1.1. style 1
+*       1.2. style 2
+*       1.3. style 3
+*       1.4. style 4
+*       1.5. style 5
+*
+*  2. PROGRESS BAR LAYOUT 2
+*       2.1. style 1
+*
+*
+*/
+
+
+/*======================================
+=       1. PROGRESS BAR LAYOUT 1       =
+======================================*/
+
+/*----------  1.1. style 1  ----------*/
+
+    .slz-progress-bar-01 {
+        position: relative;
+    }
+    .slz-progress-bar-01 + .slz-progress-bar-01{
+        margin-top: 15px;
+    }
+
+    .slz-progress-bar-01 .progress-title {
+        margin-bottom: 5px;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    .slz-progress-bar-01 .progress-title .percent {
+        position: static;
+    }
+
+    .slz-progress-bar-01 .progress {
+        overflow: initial;
+        height: 8px;
+        border-radius: 50px;
+        margin-bottom: 0;
+    }
+
+    .slz-progress-bar-01 .progress-bar {
+        position: relative;
+        border-radius: 50px;
+        transition: width 1.5s ease-in-out;
+        -webkit-transition: width 1.5s ease-in-out;
+        -moz-transition: width 1.5s ease-in-out;
+        -o-transition: width 1.5s ease-in-out;
+    }
+
+    .slz-progress-bar-01 .percent {
+        position: absolute;
+        right: 0;
+        top: -25px;
+        color: #000;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .slz-progress-bar-01.style-1 .progress .percent {
+        display: none;
+    }
+
+    .slz-progress-bar-01.style-1 .percent {
+        float: right;
+    }
+
+/*----------  1.2. style 2  ----------*/
+
+    .slz-progress-bar-01.style-2 .progress-title .percent {
+        display: none;
+    }
+
+    .slz-progress-bar-01.style-2 .percent {
+        color: #FFF;
+        background-color: #000;
+        border-radius: 5px;
+        top: -30px;
+        right: -20px;
+        text-align: center;
+        width: 44px;
+        height: 24px;
+        line-height: 26px;
+    }
+
+    .slz-progress-bar-01.style-2 .percent:after {
+        content: '';
+        width: 0;
+        height: 0;
+        display: block;
+        position: absolute;
+        z-index: 10;
+        border: 0;
+        left: 50%;
+        bottom: -5px;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #000;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+/*----------  1.3. style 3  ----------*/
+
+    .slz-progress-bar-01.style-3 .progress-title .percent {
+        display: none;
+    }
+
+    .slz-progress-bar-01.style-3 .progress-bar {
+        position: relative;
+    }
+
+    .slz-progress-bar-01.style-3 .percent {
+        background-color: #f5f5f5;
+        width: 40px;
+        height: 40px;
+        line-height: 42px;
+        border-radius: 50%;
+        top: 50%;
+        right: -20px;
+        box-shadow: 0px 0px 4px 0px #d9d9d9;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+
+/*----------  1.4. style 4  ----------*/
+
+    .slz-progress-bar-01.style-4 .progress {
+        height: 24px;
+        background-color: #b1b1b1;
+    }
+
+    .slz-progress-bar-01.style-4 .progress .percent {
+        display: none;
+    }
+
+    .slz-progress-bar-01.style-4 .progress-title {
+        position: absolute;
+        left: 50%;
+        color: #FFF;
+        z-index: 1;
+        margin-bottom: 0;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .slz-progress-bar-01.style-4 .progress-title .percent {
+        margin-left: 10px;
+        color: #FFF;
+    }
+
+/*----------  1.5. style 5  ----------*/
+
+    .slz-progress-bar-01.style-5 {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    .slz-progress-bar-01.style-5 > div {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    .slz-progress-bar-01.style-5 .progress .percent {
+        display: none;
+    }
+
+    .slz-progress-bar-01.style-5 .progress-title .percent {
+        margin-left: 20px;
+    }
+
+
+/*======================================
+=       2. PROGRESS BAR LAYOUT 2       =
+======================================*/
+
+/*----------  2.1. style 1  ----------*/
+
+    .slz-progress-bar-02 .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .slz-progress-bar-02 .progress-circle {
+        width: 120px;
+        height: 120px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .slz-progress-bar-02 .progress-circle + .progress-content {
+        margin-top: 15px;
+    }
+
+    .slz-progress-bar-02 .percent {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .slz-progress-bar-02 .progress-content .title {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 10px 0;
+        text-transform: capitalize;
+        color: #213047;
+    }
+
+    .slz-progress-bar-02 .progress-content .description {
+        margin-bottom: 15px;
+    }
+
+    .slz-progress-bar-02 .progress-content .description:last-child {
+        margin-bottom: 0;
+    }
+    
+

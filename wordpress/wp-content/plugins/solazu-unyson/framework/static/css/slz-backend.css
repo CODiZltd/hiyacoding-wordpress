@@ -1,0 +1,8 @@
+/* icon slz */
+i.slz-vc-slzcore{
+    background: url(../img/icons/slz-icon.png);
+}
+/* thumbnail custom column */
+th.column-thumbnail{
+	width: 130px;
+}

@@ -1,0 +1,498 @@
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary: Widgets
+ *
+ *    0. General Widget
+ *    1. About Us
+ *    2. Categories
+ *    3. Recent Post
+ *    4. Tags
+ *    5. Taxonomy
+ *    6. Custom Post
+ *    7. Contact Us
+ *    8. New Tweet
+ *    9. Material Download
+ *    10. Custom Menu
+ *    11. Gallery
+ *
+ *
+ */
+
+
+/*----------  0. General Widget  ----------*/
+    .slz-widgets ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style: none;
+    }
+    .slz-widgets ul li {
+    }
+    .slz-widget-gallery ul.three-column li,
+    .slz-gallery ul.three-column li {
+        width: 33.333333%
+    }
+/*----------  1. About Us  ----------*/
+    .slz-widget-about-us .widget-title,
+    .slz-widget-about-us .title-widget {
+        margin-bottom: 35px;
+        min-height: 38px;
+    }
+    .slz-widget-about-us .widget-content {
+        font-size: 15px;
+    }
+    .slz-widget-about-us .widget-content .social {
+        margin-top: 40px;
+    }
+    .slz-widget-about-us .widget-content .social .link {
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+    }
+    .slz-widget-about-us .widget-content .social .link:hover {
+        background-color: #d4d4d4;
+    }
+    .slz-widget-about-us .widget-content .social .link:last-child {
+        margin-right: 0;
+    }
+    .slz-widget-about-us .widget-content .social .link .icons {
+        font-size: 16px;
+    }
+    .slz-dark .slz-widget-about-us .widget-content .social .link:hover,
+    .slz-dark .slz-widget-about-us .widget-content .social .link:hover i{
+        color: #FFFFFF;
+    }
+/*----------  2. Categories  ----------*/
+    .slz-widget-category .widget-content a {
+        color: #333;
+        padding-bottom: 15px;
+        border-bottom-color: #ededed;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        border-bottom: 1px solid #f4f5f7;
+        margin-bottom: 15px;
+        padding-top: 0;
+    }
+    .slz-widget-category .widget-content a:last-child {
+         padding-bottom: 15px;
+         border-bottom: none;
+         margin-bottom: 0;
+    }
+    .slz-widget-category .widget a:hover {
+        color: #31c290;
+    }
+    .slz-widget-category .slz-categories .link > .text {
+        font-size: 14px;
+    }
+    .slz-widget-category .slz-categories .link > .badge {
+        display: none;
+    }
+    .slz-widget-category .slz-categories .two-column .link {
+        padding: 0 10px 15px;
+    }
+    .slz-widget-category .slz-categories2 .link .icons:before {
+        font-weight: 500;
+    }
+    .slz-widget-category .slz-categories2 .widget-content a:last-child {
+        padding-top: 12px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+/*----------  3. Recent Post  ----------*/
+    .slz-widget-recent-post .media {
+        border-top-color: #ededed;
+    }
+    .slz-widget-recent-post .media-left {
+        padding-right: 20px;
+    }
+    .slz-widget-recent-post .wrapper-image:before {
+        padding-top: 75%;
+    }
+    .slz-widget-recent-post .media-heading {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #333;
+        line-height: 20px;
+    }
+    .slz-widget-recent-post .media-heading:hover {
+        color: #31c290;
+    }
+    .slz-widget-recent-post .meta {
+        margin: 0;
+    }
+    .slz-widget-recent-post .meta-info {
+        font-size: 10px;
+        margin-left: 0;
+        margin-right: 5px;
+        text-transform: uppercase;
+    }
+    .slz-widget-recent-post .meta-info:after {
+        content: '/';
+        margin-left: 5px;
+    }
+    .slz-widget-recent-post .meta-info .icon-meta {
+        padding-right: 5px;
+    }
+    .slz-widget-recent-post .meta-info .link {
+        padding-left: 0;
+        font-weight: 600;
+        color: #999;
+    }
+    .slz-widget-recent-post .meta-info:last-child {
+        margin-right: 0;
+    }
+    .slz-widget-recent-post .meta-info:last-child:after {
+        content: none;
+    }
+    .slz-widget-recent-post .meta-info .link:hover,
+    .slz-widget-recent-post .meta-info .link:focus {
+        color: #31c290;
+    }
+    .slz-widget-recent-post .wrapper-image {
+        width: 80px;
+    }
+    .slz-widget-recent-post .wrapper-image img {
+        top: 0;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .slz-widget-recent-post .media:hover .wrapper-image:after {
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+    }
+    .slz-widget-recent-post .meta-info:before {
+        content: none;
+    }
+    .slz-widget-recent-post .meta-info {
+        font-style: normal;
+    }
+    .slz-widget-categories .link > .badge {
+        float: none;
+    }
+/*----------  4. Tags  ----------*/
+    .slz-widget-tags ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .slz-widget-tags ul li {
+        padding: 0;
+        margin: 0 10px 10px 0;
+        height: 30px;
+    }
+    .slz-widget-tags ul li .tag {
+        font-size: 13px;
+        padding: 6px 20px;
+        background-color: #f4f4f4;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+    }
+    .slz-widget-tags ul li .tag:hover,
+    .slz-widget-tags ul li .tag:focus {
+        background-color: #fff;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+/*----------  5. Taxonomy  ----------*/
+    .slz-widget-taxonomy .slz-widget-categories .link {
+        color: #333;
+        line-height: 24px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px;
+    }
+    .slz-widget-taxonomy .slz-widget-categories .link:hover {
+        color: #31c290;
+    }
+    .slz-widget-taxonomy .slz-widget-categories .link:hover > .badge {
+        color: #31c290;
+    }
+    .slz-widget-taxonomy .slz-widget-categories .link > .icons {
+        display: none;
+    }
+    .slz-widget-taxonomy .slz-widget-categories .link > .text {
+        font-size: 14px;
+    }
+    .slz-widget-taxonomy .slz-widget-categories .link > .badge {
+        font-size: 14px;
+        background-color: transparent;
+        color: #333;
+        line-height: 1.4;
+        padding: 0;
+        margin-left: 10px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+    .slz-widget-taxonomy .slz-widget-categories .link > .badge:before {
+        content: '(';
+        padding-right: 2px;
+    }
+    .slz-widget-taxonomy .slz-widget-categories .link > .badge:after {
+        content: ')';
+        padding-left: 2px;
+    }
+    .slz-widget-taxonomy .slz-widget-categories .link + .link {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #ededed;
+    }
+    .slz-widget-taxonomy .slz-widget-categories2 .link:hover {
+        color: #31c290;
+    }
+    .slz-widget-taxonomy .slz-widget-categories2 .link {
+        padding: 12px 0;
+        color: #666c72;
+        border-top: 1px solid #e9ebef;
+        display: block;
+    }
+    .slz-widget-taxonomy .slz-widget-categories2 .link:first-child  {
+        padding-top: 0;
+        border-top: none;
+    }
+    .slz-widget-taxonomy .slz-widget-categories2 .link:last-child  {
+        padding-bottom: 0;
+    }
+    .slz-widget-taxonomy .slz-widget-categories2 .link > .icons {
+        width: 25px;
+    }
+/*----------  6. Custom Post  ----------*/
+    .slz-widget-custom-post ul {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .slz-widget-custom-post ul li {
+        padding-bottom: 0;
+    }
+    .slz-widget-custom-post ul li a {
+        line-height: 24px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+    .slz-widget-custom-post ul li + li {
+        padding-top: 15px;
+        margin-top: 15px;
+        border-top: 1px solid #ededed;
+    }
+/*----------  7. Contact Us  ----------*/
+    .slz-widget-contact-info .item a {
+        font-size: 15px;
+        color: #777;
+    }
+    .slz-widget-contact-info .item .icons {
+        color: #31c290;
+    }
+    .slz-widget-contact-info .item a:hover,
+    .slz-widget-contact-info .item a:focus {
+        color: #31c290;
+    }
+
+
+/*----------  8. New Tweet  ----------*/
+    .slz-new-tweet .list-news-tweet .recent-post {
+        padding: 10px 0;
+    }
+    .slz-new-tweet .list-news-tweet .recent-post .post-info .title .left-text .strongtext {
+        color: inherit;
+    }
+    .slz-new-tweet .list-news-tweet .recent-post .post-info .link:hover {
+        color: #31c290;
+    }
+/*----------  9. Material Download  ----------*/
+    .slz-widget-material-download .slz-btn {
+        width: 100%;
+    }
+    .slz-widget-material-download .slz-btn + .slz-btn {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .slz-widget-material-download .slz-btn:hover .btn-icon:before, 
+    .slz-widget-material-download .slz-btn:focus .btn-icon:before {
+        -webkit-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+/*----------  10. Custom Menu  ----------*/
+    .slz-widget.widget_nav_menu ul li {
+        padding: 3px 0;
+        border: none;
+    }
+    .slz-widget.widget_nav_menu ul li a:hover {
+    }
+    .slz-widget.widget_nav_menu ul li a:before {
+        content: '\f105';
+        font-family: 'FontAwesome';
+        padding-right: 20px;
+    }
+/*----------  11. Gallery  ----------*/
+    .slz-widget-gallery .widget-content ul li, .slz-gallery .widget-content ul li {
+        padding: 5px;
+    }
+
+/*----------  12. post carousel  ----------*/
+    .slz-widget-post-slider .slz-carousel-wrapper .btn {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border: none;
+        top: 40%;
+        background: transparent;
+    }
+
+    .slz-widget-post-slider .slz-carousel-wrapper:hover .btn-prev, 
+    .slz-widget-post-slider .slz-carousel-wrapper .btn-prev {
+        left: 20px;
+    }
+
+    .slz-widget-post-slider .slz-carousel-wrapper:hover .btn-next, 
+    .slz-widget-post-slider .slz-carousel-wrapper .btn-next {
+        right: 20px;
+    }
+
+/*----------  13. contact form  ----------*/
+    .slz-widget-contact-form .widget-ctf-wrapper {
+        background-color: #f6f6f6;
+        padding: 20px;
+        border-radius: 2px; 
+    }
+
+    .slz-widget-contact-form .widget-ctf-wrapper .cf7-btn-submit-wrapper {
+        margin-top: 15px;
+    }
+
+    .slz-widget-contact-form .cf7-form-control input {
+        padding: 15px;
+        border-radius: 2px;
+        width: 100%;
+        border: none;
+        background-color: #fff;
+        transition: all 0.3s ease;
+    }
+
+    .slz-widget-contact-form .cf7-form-control {
+        margin-bottom: 15px;
+        position: relative;
+        padding: 0px;
+        width: 100%;
+    }
+    .slz-widget-contact-form .cf7-form-control:last-child {
+        margin-bottom: 0px;
+    }
+
+    .slz-widget-contact-form .cf7-btn-submit input {
+        height: 50px;
+        padding: 0 55px 0 40px;
+        display: table;
+        color: #fff;
+        background-color: #31c290;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        margin: 0 auto;
+        vertical-align: middle;
+        width: 100%;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+        text-transform: capitalize;
+        letter-spacing: 0px;
+    }
+    .slz-widget-contact-form .wpcf7-form-control {
+        margin-top: 0px;
+    }
+
+    .slz-widget-contact-form .cf7-btn-submit input:hover {
+        background-color: #31c290;
+    }
+
+    .slz-widget-contact-form .cf7-btn-submit:after {
+        background-color: rgba(0,0,0,0.1);
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+        transform-origin: right;
+        -webkit-transform: scale(0, 1);
+        -ms-transform: scale(0, 1);
+        -o-transform: scale(0, 1);
+        transform: scale(0, 1);
+        -webkit-transition: transform 0.4s ease;
+        -o-transition: transform 0.4s ease;
+        transition: transform 0.4s ease;
+        z-index: 1;
+    }
+
+   .slz-widget-contact-form .cf7-btn-submit:hover:after {
+        -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+        transform-origin: left;
+        -webkit-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    .slz-widget-contact-form .cf7-btn-submit {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .slz-widget-contact-form .service-form .cf7-btn-submit i.btn-icon.fa.fa-angle-right{
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+        left: auto;
+        right: 80px;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        
+    }
+    .slz-widget-contact-form .service-form .cf7-btn-submit:hover i.btn-icon.fa.fa-angle-right{
+        -webkit-transform: translate(10px,-50%);
+        -moz-transform: translate(10px,-50%);
+        -ms-transform: translate(10px,-50%);
+        -o-transform: translate(10px,-50%);
+        transform: translate(10px,-50%);
+    }
+
+    .slz-widget-contact-form .cf7-form-control textarea {
+        border: none;
+        padding: 15px;
+        border-radius: 2px;
+        height: 170px;
+        width: 100%;
+        background-color: #fff;
+        transition: all 0.3s ease;
+    }
+
+    .slz-widget-contact-form .cf7-form-control input:focus,
+    .slz-widget-contact-form .cf7-form-control textarea:focus {
+        background-color: #e8e8e8;
+    }

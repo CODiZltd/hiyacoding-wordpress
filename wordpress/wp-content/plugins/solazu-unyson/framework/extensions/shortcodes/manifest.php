@@ -1,0 +1,13 @@
+<?php if (!defined('SLZ')) die('Forbidden');
+
+$manifest = array(
+	'version'       => '1.3.19',
+	'display'       => false,
+	'standalone'    => true,
+	 'requirements'  => array(
+		'extensions' => array(
+			'autoload'          => array(),
+		)
+	),
+	'github_update' => 'ThemeFuse/Unyson-Shortcodes-Extension'
+);

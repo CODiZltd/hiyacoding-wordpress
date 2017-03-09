@@ -1,0 +1,77 @@
+
+.slz-new-tweet .list-news-tweet .recent-post {
+  display: table;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+
+}
+
+.slz-new-tweet .list-news-tweet .recent-post + .recent-post {
+  margin-top: 15px;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .thumb {
+  display: table-cell;
+  width: 65px;
+  padding: 0 10px 0 0;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .thumb .img-wrapper {
+  width: 100%;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .post-info {
+  position: relative;
+  top: -4px;
+  display: table-cell;
+  width: auto;
+  vertical-align: top;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .post-info .title {
+  display: block;
+  margin: 0;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .post-info .title .left-text {
+  float: left;
+  text-transform: capitalize;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .post-info .title .left-text .strongtext {
+  font-weight: bold;
+  color: #213047;
+  padding-right: 10px;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .post-info .title .right-text {
+  float: right;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .post-info .description .text {
+  color: #666c72;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .post-info .link {
+  color: #9aa7bc;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post .post-info .link:hover {
+  color: #337ab7;
+}
+
+.slz-new-tweet .list-news-tweet .recent-post a.link {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  left: 0;
+  top: 0;
+}
+.slz-new-tweet .list-news-tweet .re-tweeet {
+  margin-left:55px;
+  background-color: #f5f8fa;
+  -webkit-border-radius: 5px;
+  -moz-border-radius:5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,122 @@
+/**
+*
+*
+*  STYLE FOR NEWSLETTER
+*
+*
+*  1.1. Newsletter layout 1
+*
+*  1.2. Newsletter layout 2
+*
+*  Custom css
+*
+*
+*
+*/
+
+
+/*----------  1.1. Newsletter layout 1  ----------*/
+
+
+    .sc-newslettter-title,
+    .entry-content .sc_newsletter .slz-title-shortcode {
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        margin: 0 0 20px;
+        position: relative;
+        color: #18364a;
+        text-transform: uppercase;
+    }
+
+    .sc-newslettter-des {
+        margin-bottom: 10px;
+    }
+
+
+    .slz-shortcode-send-mail .sc-newsletter-content .form-control {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        padding: 0 12px 0 0;
+        resize: none;
+        border: none;
+        color: #61728d;
+        border-bottom: 1px solid #e9ebef;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none !important;
+    }
+
+    .slz-shortcode-send-mail .sc-newsletter-content .btn {
+        border-radius: 0;
+    }
+
+/*----------  1.2. Newsletter layout 2  ----------*/
+
+
+    .slz-shortcode-send-mail2 .slz-input-group {
+        position: relative;
+        padding: 3px;
+        margin: 0 0 20px 0;
+        display: table;
+        border-collapse: separate;
+        border: 1px solid #e9ebef;
+    }
+
+    .slz-shortcode-send-mail2 .slz-input-group .form-control {
+        display: table-cell;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border-color: transparent;
+        background-color: transparent;
+        box-shadow: none !important;
+        position: relative;
+        z-index: 2;
+        float: left;
+        margin-bottom: 0;
+    }
+
+    .slz-shortcode-send-mail2 .slz-input-group .form-control:focus {
+        border-color: transparent;
+    }
+
+    .slz-shortcode-send-mail2 .input-group-button {
+        display: table-cell;
+        position: relative;
+        font-size: 0;
+        white-space: nowrap;
+        width: 1%;
+        vertical-align: middle;
+    }
+
+   
+    .slz-shortcode-send-mail2 .btn {
+        position: relative;
+        height: 40px;
+        font-size: 14px;
+        z-index: 2;
+    }
+
+    .slz-shortcode-send-mail2 .btn > .btn-text + .btn-icon {
+        margin: 0 0 0 10px;
+    }
+
+
+/*==================================
+=            Custom css            =
+==================================*/
+
+    .sc-newslettter-title {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        min-height: 24px;
+        margin: 0 0 30px 0;
+        position: relative;
+        color: #213047;
+        text-transform: uppercase;
+    }

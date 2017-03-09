@@ -1,0 +1,93 @@
+/**
+*
+*   STYLE FOR MAP
+*
+*
+*  1.1 Map 01
+*
+*
+*
+*/
+
+
+/*----------  1.1 Map 01  ----------*/
+  .map-contact{
+  	height: 370px;
+  }
+  .slz-map-01 {
+    position: relative;
+    display: block;
+    background-color: #fafafa;
+    height: 500px;
+  }
+
+  .slz-map-01 #map-01 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .slz-map-01 .office-wrapper {
+    width: 41.666667%;
+    position: relative;
+    z-index: 2;
+    transform: translateY(-90px);
+    -webkit-transform: translateY(-90px);
+    -moz-transform: translateY(-90px);
+    -ms-transform: translateY(-90px);
+    -o-transform: translateY(-90px);
+  }
+
+  .slz-map-01 .office-list {
+    padding: 50px;
+    max-height: 500px;
+    background-color: #18364a;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+  }
+
+  .slz-map-01 .office {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .slz-map-01 .office:last-child {
+    padding: 0;
+    border: none;
+    margin: 0;
+  }
+
+  .slz-map-01 .office-name {
+    color: #db0f32;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .slz-map-01 .office-contact {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .slz-map-01 .office-contact .icons {
+    padding-right: 5px;
+    width: 20px;
+    text-align: center;
+  }
+
+  .slz-map-01 .office-contact .text {
+    display: inline-block;
+  }
+  .map-content .g-address i {
+      margin-right: 7px;
+  }
+  .map-content .g-address {
+      text-transform: capitalize;
+      padding: 15px;
+      color: #3a4d6a;
+      font-weight: 400;
+  }

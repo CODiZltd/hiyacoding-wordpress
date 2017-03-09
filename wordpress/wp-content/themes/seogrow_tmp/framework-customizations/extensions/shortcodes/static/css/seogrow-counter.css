@@ -1,0 +1,122 @@
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary: Widgets
+ *
+ *    1. Counter
+ *    2. Responsive
+ *
+ *
+ */
+
+
+
+
+/*==================================
+=            1. Counter            =
+==================================*/
+
+    .slz-counter-item-1 .img-cell,
+    .slz-counter-item-1 .icon-cell .wrapper-icon{
+        display: inline-block;
+        border-radius: 50%;
+        position: relative;
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        vertical-align: middle;
+    }
+    .slz-counter-item-1 .icon-cell .wrapper-icon {
+        background-color: #31c290;
+    }
+    .slz-counter-item-1.counter-right .icon-cell .wrapper-icon,
+    .slz-counter-item-1.counter-left .icon-cell .wrapper-icon,
+    .slz-counter-item-1.counter-left .img-cell,
+    .slz-counter-item-1.counter-right .img-cell{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+    .slz-counter-item-1.counter-right .content-cell{
+        margin-top: 15px;
+    }
+    .slz-counter-item-1.counter-center .img-cell,
+    .slz-counter-item-1.counter-center .icon-cell .wrapper-icon {
+        width: 130px;
+        height: 130px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .slz-counter-item-1.counter-center .icon-cell .wrapper-icon{
+        line-height: 130px;
+    }
+    .slz-counter-item-1.counter-right .icon-cell .wrapper-icon, 
+    .slz-counter-item-1.counter-left .icon-cell .wrapper-icon{
+        line-height: 100px;
+    }
+    .slz-counter-item-1 .img-cell img {
+        width: 100%;
+    }
+    .slz-counter-item-1 .content-cell .number{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: #333 ;
+    }
+    .slz-counter-item-1 .content-cell .title{
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #30b889;
+        text-transform: uppercase;
+    }
+    .slz-counter-item-1.layout-2.counter-right .content-cell{
+        float: none;
+    }
+
+    .slz-counter-item-1 .content-cell + .icon-cell, 
+    .slz-counter-item-1 .content-cell + .img-cell {
+        margin-top: 15px;
+    }
+
+/*=====  1. End of Counter  ======*/
+
+
+
+/*=====================================
+=            2. Responsive            =
+=====================================*/
+
+    @media screen and (max-width: 1024px) {
+        .sc_counter.slz-list-block.slz-column-4 > .item {
+            width: 50%;
+        }
+        .sc_counter.slz-list-block.slz-column-4 > .item:nth-child(-n + 4) {
+            margin-top: 50px;
+        }
+        .sc_counter.slz-list-block.slz-column-4 > .item:nth-child(-n + 2) {
+            margin-top: 0;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .sc_counter.slz-list-block.slz-column-4 > .item {
+            width: 100%;
+        }
+        .sc_counter.slz-list-block.slz-column-4 > .item:nth-child(-n + 2) {
+            margin-top: 50px;
+        }
+        .sc_counter.slz-list-block.slz-column-4 > .item:nth-child(-n + 1) {
+            margin-top: 0;
+        }
+    }
+
+    @media screen and (max-width: 320px){
+        .slz-counter-item-1 .content-cell .title{
+            font-size: 15px;
+        }
+    }
+
+/*=====  End of 2. Responsive  ======*/

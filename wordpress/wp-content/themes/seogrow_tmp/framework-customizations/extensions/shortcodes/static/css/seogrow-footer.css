@@ -1,0 +1,173 @@
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary: Widgets
+ *
+ *    1. Footer Top
+ *    2. Footer Main
+ *      - 2.0. Widget General
+ *      - 2.1. Widget Title
+ *      - 2.2. About Us
+ *      - 2.3. Recent Post
+ *      - 2.4. Contact Us
+ *      - 2.5. Category
+ *      - 2.6. Tags
+ *    3. Footer Bottom
+ *
+ *
+ */
+
+
+/*=====================================
+=            1. Footer Top            =
+=====================================*/
+
+    
+
+/*=====  End of 1. Footer Top  ======*/
+
+
+/*======================================
+=            2. Footer Main            =
+======================================*/
+    /*----------  2.0. Widget General  ----------*/
+        .slz-widgets.slz-dark,
+        .slz-widgets.slz-dark a {
+            color: #999;
+        }
+        .slz-widgets.slz-dark .slz-widget:not(.slz-widget-about-us) a:hover {
+            color: #31C290;
+        }
+    /*----------  2.1. Widget Title  ----------*/
+        .slz-widgets.slz-dark .widget-title,
+        .slz-widgets.slz-dark .title-widget {
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+        .slz-widgets.slz-dark .widget-title:before,
+        .slz-widgets.slz-dark .title-widget:before {
+            position: absolute;
+            content: '';
+            top: 100%;
+            left: 0;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+        }
+        .slz-widgets.slz-dark .widget-title.logo-title,
+        .slz-widgets.slz-dark .title-widget.logo-title {
+            padding-bottom: 0;
+        }
+        .slz-widgets.slz-dark .widget-title.logo-title:before,
+        .slz-widgets.slz-dark .title-widget.logo-title:before {
+            content: none;
+        }
+    /*----------  2.2. About Us  ----------*/
+        .slz-widgets.slz-dark .slz-widget-about-us .widget-content .social .link {
+            background-color: #242731;
+        }
+        .slz-widgets.slz-dark .slz-widget-about-us .widget-content .social .link:hover {
+            background-color: #3b3f4e;
+        }
+    /*----------  2.3. Recent Post  ----------*/
+        .slz-wrapper-footer .slz-widget-recent-post .media-heading{
+            font-size: 15px;
+        }
+        .slz-widgets.slz-dark .slz-widget-recent-post .media-heading {
+            color: #ffffff;
+        }
+        .slz-widgets.slz-dark .slz-widget:not(.slz-widget-about-us) a.media-heading:hover,
+        .slz-widgets.slz-dark .slz-widget-recent-post .media-heading:hover{
+            color: #31C290;
+        }
+        .slz-widgets.slz-dark .slz-widget-recent-post a.media-heading:hover,
+        .slz-widgets.slz-dark .slz-widget-recent-post a.media-heading:focus,
+        .slz-widgets.slz-dark .slz-widget-recent-post .meta-info .link:hover,
+        .slz-widgets.slz-dark .slz-widget-recent-post .meta-info .link:focus {
+            /*color: #31c290;*/
+        }
+        .slz-widgets.slz-dark .slz-widget-recent-post .media {
+            border-top-color: #292c35;
+        }
+    /*----------  2.4. Contact Us  ----------*/
+        .slz-widgets.slz-dark .slz-widget-contact-info .item .icons {
+            color: #bebebe;
+        }
+        .slz-widgets.slz-dark .slz-widget-contact-info .item .text {
+            color: #999;
+        }
+        .slz-widgets.slz-dark .slz-widget-contact-info .item a {
+        	color: #999;
+        }
+        .slz-widgets.slz-dark .slz-widget-contact-info .item a:hover {
+        	color: #31C290;
+        }
+    /*----------  2.5. Category  ----------*/
+        .slz-widgets.slz-dark .slz-widget-category .widget-content a {
+            color: #999;
+            border-bottom-color: #292c35;
+        }
+    /*----------  2.6. Tags  ----------*/
+        .slz-widgets.slz-dark .slz-widget-tags ul li .tag {
+            background-color: #fff;
+        }
+        .slz-widgets.slz-dark .slz-widget-tags ul li .tag:hover {
+            color: #fff;
+            background-color: transparent;
+            box-shadow: 0 5px 15px rgba(255,255,255,0.15);
+            -webkit-box-shadow: 0 5px 15px rgba(255,255,255,0.15);
+        }
+    /*----------  2.7. Taxonimy  ----------*/
+        .slz-widgets.slz-dark .slz-widget-taxonomy .slz-widget-categories .link {
+            color: #999;
+        }
+        .slz-widgets.slz-dark .slz-widget-taxonomy .slz-widget-categories .link + .link {
+            border-top-color: #292c35;
+        }
+    /*----------  2.8. Custom Post  ----------*/
+        .slz-widgets.slz-dark .slz-widget-custom-post ul li + li {
+            border-top-color: #292c35;
+        }
+    /*----------  2.9. New Tweet  ----------*/
+        .slz-widgets.slz-dark .slz-new-tweet .list-news-tweet .recent-post .post-info .title .left-text a {
+            color: #bbb;
+        }
+        .slz-widgets.slz-dark .slz-new-tweet .list-news-tweet .recent-post .post-info .title .left-text a:hover {
+            color: #fff;
+        }
+        .slz-widgets.slz-dark .slz-new-tweet .list-news-tweet .recent-post .post-info .link:hover {
+            color: #fff;
+        }
+    /*----------  2.10. Taxonomy  ----------*/
+        .slz-widgets.slz-dark .slz-widget-taxonomy .slz-widget-categories .link > .badge {
+            color: #999;
+        }
+        .slz-widgets.slz-dark .slz-widget-taxonomy .slz-widget-categories .link:hover > .badge {
+            color: #fff;
+        }
+        .slz-widgets.slz-dark .slz-widget-categories2 .link {
+            border-top-color: #292c35;
+        }
+    
+
+/*=====  End of 2. Footer Main  ======*/
+
+
+/*========================================
+=            3. Footer Bottom            =
+========================================*/
+
+    .slz-footer-bottom {
+        background-color: #191c24;
+        padding: 20px 0;
+    }
+
+    .slz-footer-bottom .slz-name {
+        font-size: 14px;
+    }
+
+/*=====  End of 3. Footer Bottom  ======*/
