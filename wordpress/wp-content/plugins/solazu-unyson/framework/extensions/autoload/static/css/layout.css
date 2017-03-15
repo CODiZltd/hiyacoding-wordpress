@@ -1,0 +1,421 @@
+/**
+ *  STYLE DEFAULT FOR LAYOUT
+ *
+ *
+ *  [Table of contents]
+ *
+ *  [&. Content / #key]
+ *  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *  Summary:
+ *
+ *
+ *  1. GLOBAL STYLE
+ *
+ *  2. LAYOUT BOXED
+ *
+ *  3. CAROUSEL
+ *
+ *
+ */
+
+/*============================================
+=            1. GLOBAL STYLE                 =
+============================================*/
+    .entry-content .slz-title-shortcode,
+    .slz-title-shortcode {
+        margin: 0 0 50px;
+        text-transform: capitalize;
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #18364a;
+    }
+
+    .sc-image img {
+        margin: 0 auto;
+    }
+
+    #page-content .vc_row[data-vc-full-width] {
+        overflow: visible;
+    }
+
+/*=========  End of Global style   =========*/
+
+
+
+
+/*============================================
+=            3. LAYOUT BOXED                 =
+============================================*/
+
+    .slz-boxed-layout{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+    }
+    .slz-boxed-layout.layout-has-box-shadow{
+        -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.4);
+        box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.4);
+    }
+    .slz-boxed-layout.layout-has-border{
+        border:1px solid #ccc;
+    }
+    .slz-boxed-layout.layout-algin-left{
+        margin-left: 0px!important;
+        margin-right: auto!important;
+    }
+    .slz-boxed-layout.layout-algin-right{
+        margin-right: 0px!important;
+        margin-left: auto!important;
+    }
+
+
+/*=========  End of Layout boxed  ==========*/
+
+
+
+/*============================================
+=            4. CAROUSEL                     =
+============================================*/
+
+    .slz-carousel-wrapper .carousel-overflow {
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .slz-carousel-wrapper {
+        margin-right: -15px;
+        margin-left: -15px;
+        position: relative;
+    }
+
+    .slz-carousel-wrapper .item {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .slz-carousel-wrapper .btn {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        font-size: 0;
+        opacity: 0;
+        visibility: hidden;
+        background-color: transparent;
+        transition: all 0.3s ease;
+
+        -webkit-transform: translate(0, -50%);
+           -moz-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+    }
+
+    .slz-carousel-wrapper .btn:hover,
+    .slz-carousel-wrapper .btn:focus,
+    .slz-carousel-wrapper .btn:active {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .slz-carousel-wrapper .icons {
+        font-size: 50px;
+    }
+
+    .slz-carousel-wrapper .btn-prev {
+        left: -50px;
+    }
+
+    .slz-carousel-wrapper .btn-next {
+        right: -50px;
+        left: auto;
+    }
+
+    .slz-carousel-wrapper:hover .btn-prev {
+        left: 20px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .slz-carousel-wrapper:hover .btn-next {
+        right: 20px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .slz-carousel-wrapper .btn-prev .icons:before {
+        content: "\f104";
+    }
+
+    .slz-carousel-wrapper .btn-next .icons:before {
+        content: "\f105";
+    }
+
+    .slz-carousel-wrapper .slick-dotted.slick-slider {
+        margin-bottom: 40px;
+    }
+
+    .slz-carousel-wrapper .slick-dots {
+        padding: 0;
+        margin: 0;
+        bottom: -35px;
+        z-index: 1;
+    }
+
+    .slz-carousel-wrapper .slick-dots li button {
+        padding: 0;
+    }
+
+    .slz-carousel-wrapper .slick-dots li button:before {
+        font-size: 12px;
+        transition: all 0.3s ease;
+    }
+
+    .slz-carousel-wrapper .slz-carousel .slick-slide img {
+        width: 100%;
+    }
+
+    .slz-carousel-wrapper .slz-carousel .slick-slide .block-image .img-full {
+        width: auto;
+        height: 101%;
+    }
+
+
+/*=========  End of Carousel layout  =======*/
+
+
+/*====================================
+=            5. Load more            =
+====================================*/
+
+    .slz-shortcode {
+        position: relative;
+        z-index: 10;
+    }
+
+    .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255,255,255,0.5);
+        z-index: 10;
+        background-image: url(http://wp.solazu.net/starter-theme/wp-content/uploads/2016/11/ring-alt-1.gif);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+/*=====  End of 5. Load more  ======*/
+
+
+/*======================================
+=            Row Separate              =
+=======================================*/
+
+    .slz-page-shortcode .vc_row {
+        padding-bottom: 100px;
+        //display: table;
+        //width: calc(100% + 30px);
+        position: relative;
+    }
+
+    .slz-page-shortcode .vc_row + .vc_row {
+        padding-top: 100px;
+    }
+
+    .slz-page-shortcode .vc_row + .vc_row.vc_row-has-fill,
+    .slz-page-shortcode .vc_row + .vc_row.vc_row-has-fill + .vc_row,
+    .slz-page-shortcode .vc_row + .vc_row.vc_row-has-fill + .vc_row-full-width + .vc_row {
+        padding-top: 65px;
+    }
+
+    .slz-page-shortcode .vc_row:last-child {
+        padding-bottom: 0;
+    }
+
+    .slz-page-shortcode .vc_row:after{
+        content: '';
+        height: 1px;
+        position: relative;
+        bottom: -100px;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.15), rgba(6, 6, 6, 0.03));
+    }
+
+    .slz-page-shortcode .vc_row:last-child:after{
+        content: " ";
+        display: table;
+        background-image: none;
+        position: relative;
+        height: auto;
+    }
+
+
+    .slz-page-shortcode .entry-content .vc_row .vc_custom_heading {
+        margin-bottom: 60px;
+    }
+
+    .slz-page-shortcode .entry-content .vc_row .vc_custom_heading + .vc_empty_space {
+        height: 0 !important;
+    }
+
+    .slz-menu-wrapper.feature-nav {
+        background: #f7f7f7;
+        padding: 40px 35px;
+        box-shadow: inset 0 0 7px #e7e7e7;
+        margin-top: 80px;
+    }
+
+    .slz-menu-wrapper.feature-nav,
+    .slz-menu-wrapper.feature-nav > li,
+    .slz-menu-wrapper.feature-nav > li > .sub-menu {
+        float: none;
+    }
+
+    .slz-menu-wrapper.feature-nav > li > .sub-menu {
+        padding-left: 0;
+    }
+
+    .slz-menu-wrapper.feature-nav > li > a {
+        padding-left: 15px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .slz-menu-wrapper.feature-nav > li > a:hover {
+        color: inherit;
+    }
+
+    .slz-menu-wrapper.feature-nav > li > a:after {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 1px;
+        background-color: #444;
+    }
+
+    .slz-menu-wrapper.feature-nav .current-menu-item > a {
+
+    }
+
+    .slz-menu-wrapper.feature-nav > li > .sub-menu > li {
+        width: 25%;
+        float: left;
+    }
+
+    .slz-menu-wrapper.feature-nav > li > .sub-menu > li > a {
+        display: none;
+    }
+
+    .slz-menu-wrapper.feature-nav > li > .sub-menu li {
+        list-style: none;
+        padding-left: 0;
+        padding-bottom: 7px;
+    }
+
+/*=========  End Row Separate  ========*/
+
+
+/*============================================
+=            RESBONSIVE                      =
+============================================*/
+
+/*----------  min-width 1600px  ----------*/
+@media screen and (min-width: 1600px) {}
+
+
+/*----------  max-width 1024px  ----------*/
+@media screen and (max-width: 1024px) {
+    .slz-wrapper-content .slz_col-md-12{
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/*----------  max-width 768px  -----------*/
+@media screen and (max-width: 768px) {
+    .slz-footer-main {
+        font-size: 0;
+    }
+
+    .slz-footer-main .slz-widget {
+         font-size: 14px;
+    }
+
+    .slz-footer-main .col-md-3.col-sm-6 {
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+        margin-top: 60px;
+        width: 50%;
+
+    }
+
+    .slz-footer-main .col-md-3.col-sm-6:nth-child(-n + 2) {
+        margin-top: 0;
+    }
+    .slz-wrapper-content .slz_col-sm-12{
+        width: 100%;
+        float: none;
+    }
+
+}
+
+
+/*----------  max-width 767px  -----------*/
+@media screen and (max-width: 767px) {
+    /*----------  carousel  --------------*/
+    .slz-carousel-wrapper {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .slz-carousel-wrapper .slz-carousel {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .slz-carousel-wrapper .slz-carousel .slick-slide {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+}
+
+/*----------  max-width 600px  ----------*/
+@media screen and (max-width: 600px) {
+    .slz-footer-main .col-md-3.col-sm-6 {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .slz-footer-main .col-md-3.col-sm-6:nth-child(-n + 2) {
+        margin-top: 40px;
+    }
+
+    .slz-footer-main .col-md-3.col-sm-6:first-child {
+        margin-top: 0px;
+    }
+}
+
+/*----------  max-width 480px  ----------*/
+@media screen and (max-width: 480px) {}
+
+
+/*----------  max-width 414px  ----------*/
+@media screen and (max-width: 414px) {}
+
+
+/*----------  max-width 380px  ----------*/
+@media screen and (max-width: 380px) {}
+
+
+/*----------  max-width 320px  ----------*/
+@media screen and (max-width: 320px) {}
+
+
+/*=====  End of RESPONSIVE  ======*/

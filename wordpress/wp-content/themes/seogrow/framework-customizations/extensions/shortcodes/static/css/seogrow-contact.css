@@ -1,0 +1,187 @@
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary: Widgets
+ *
+ *    1. Contact
+ *    2. Responsive
+ *
+ *
+ */ 
+
+/*----------  1. Contact  ----------*/
+
+	.slz-list-contact-01 .slz-contact-01 .contact-title {
+		background: #53bec9;
+		padding-bottom: 40px;
+	    padding-top: 40px;
+	    -webkit-transition: all 0.3s ease;
+	    -o-transition: all 0.3s ease;
+	    transition: all 0.3s ease;
+	}
+
+	.slz-list-contact-01 .slz-contact-01 .contact-title .text, 
+	.slz-list-contact-01 .slz-contact-01 .contact-content .text {
+		padding-left: 0;
+	}
+
+	.slz-list-contact-01 .slz-contact-01 .contact-title .text {
+		color: #fff;
+		font-weight: 600;
+		font-family: 'Popins', sans-serif;
+		font-size: 24px;
+	}
+
+	.slz-list-contact-01 .slz-contact-01 .contact-content .text {
+		font-size: 15px;
+		font-family: 'Noto Sans', sans-serif;
+		color: #777777;
+		margin-top: 15px;
+		font-weight: 300;
+		padding-left: 30px;
+		position: relative;
+	}
+
+	.slz-list-contact-01 .slz-contact-01 .contact-content div:first-child .text {
+		margin-top: 0;
+	}
+	.slz-list-contact-01 .slz-contact-01 {
+		padding: 0;
+		box-shadow: 0px 10px 16px 0 rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0px 10px 16px 0 rgba(0, 0, 0, 0.1);
+		-webkit-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.slz-list-contact-01 .slz-contact-01 .contact-content .slz-icon {
+		color: #31c290;
+		position: absolute;
+		left: 0;
+	    line-height: 24px;
+    	top: 1px;
+	}
+
+	.slz-list-contact-01 .slz-contact-01 .contact-content {
+		padding: 40px 30px;
+		text-align: left;
+	}
+
+	.slz-contact-01 .contact-content .slz-icon {
+		padding-right: 0;
+	}
+
+	.sc-contact-form .cf7-seo.cf7-working  .cf7-btn-submit input {
+		background-color: #31c290;
+	}
+
+	.sc-contact-form .cf7-seo.cf7-working .cf7-btn-submit-wrapper {
+	    text-align: left;
+	    padding: 0 15px;
+	    display: inline-block;
+	}
+
+	.cf7-seo.cf7-working  .cf7-form-control span input, 
+	.cf7-seo.cf7-working  .cf7-form-control span textarea {
+		background-color: #fff;
+	}
+
+	.cf7-seo.cf7-working  .cf7-form-control span input:focus, 
+	.cf7-seo.cf7-working  .cf7-form-control span textarea:focus {
+		background-color: #e8e8e8;
+	}
+	
+	.wpcf7 .cf7-form-control.cf7-input-white input, 
+	.wpcf7 .cf7-form-control.cf7-input-white textarea {
+		background-color: #fff;
+	}
+
+	.wpcf7 .cf7-form-control.cf7-input-white input:focus, 
+	.wpcf7 .cf7-form-control.cf7-input-white textarea:focus {
+		background-color: #e8e8e8;
+	}
+
+	.wpcf7 .cf7-form-control span input, 
+	.wpcf7 .cf7-form-control span textarea {
+		border: none;
+	    display: block;
+	    font-size: 15px;
+	    padding: 15px;
+	    border-radius: 2px;
+	    width: 100%;
+	    background-color: #f6f7f8;
+	    transition: all 0.3s ease;
+	}
+
+	.wpcf7 .cf7-form-control span input {
+	    height: 47px;
+	}
+
+	.wpcf7 .cf7-form-control span input:focus, 
+	.wpcf7 .cf7-form-control span textarea:focus {
+		background-color: #fff;
+	}
+
+	.carreer-contact
+
+/* ----------Contact- Califonia-------------- */
+
+	.style-california .slz-list-contact-01 .slz-contact-01 {
+		box-shadow: none;
+	}
+
+	.style-california .slz-list-contact-01 .slz-contact-01 .contact-title {
+		background: transparent;
+		padding: 0;
+		text-align: left;
+	}
+
+	.style-california .slz-list-contact-01 .slz-contact-01 .contact-title .text {
+		color: #333;
+	}
+
+	.style-california  .slz-list-contact-01 .slz-contact-01 .contact-title,
+	.style-california  .slz-list-contact-01 .slz-contact-01 .contact-title,
+	.style-california  .slz-list-contact-01 .slz-contact-01 .contact-title {
+		padding: 15px 0;
+	}
+
+	.style-california .slz-list-contact-01 .slz-contact-01 .contact-content {
+		padding: 0;
+	}
+
+	.slz-widget-contact-form .wpcf7 form.wpcf7-form {
+		margin: 0;
+	}
+
+	.style-california  .slz-list-contact-01 .slz-contact-01 {
+		padding: 20px 30px;
+	}
+
+	 .wpcf7 .service-contact .cf7-form-control span input, 
+	 .wpcf7 .service-contact .cf7-form-control span textarea {
+		background-color: #fff;
+	}
+
+/*----------  2. Responsive  ----------*/
+	@media screen and (max-width: 767px) {
+		.slz-list-contact-01 .slz-contact-01 .contact-content .slz-icon {
+			min-width: 20px;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.slz-list-contact-01 .slz-contact-01 .contact-content {
+			text-align: center;
+		}
+
+		.style-california .slz-list-contact-01 .slz-contact-01 .contact-content {
+			text-align: left;
+		}
+
+		.slz-list-contact-01 .slz-contact-01 .contact-content .slz-icon {
+			text-align: left;
+		}
+	}

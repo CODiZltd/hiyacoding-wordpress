@@ -1,0 +1,33 @@
+/**
+ *
+ *  
+ *  UL LIST
+ *  
+ *  1.1. ul-list
+ *
+ */
+
+/*----------  1.1. ul-list  ----------*/
+
+    .slz-list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .slz-list li {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .slz-list li:first-child {
+        padding-top: 0;
+    }
+
+    .slz-list li:last-child {
+        padding-bottom: 0;
+    }
+
+    .slz-list .slz-icon {
+        min-width: 20px;
+    }
+

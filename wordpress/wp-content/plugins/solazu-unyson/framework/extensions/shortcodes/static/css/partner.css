@@ -1,0 +1,70 @@
+/**
+*
+*
+*  STYLE FOR PARTER
+*
+*
+*  1.1. partner list 
+*
+*  1.2. partner slider
+*
+*
+*/
+
+/*----------  1.1. partner list  ----------*/
+
+    .slz-list-logo {
+        margin: 0 -10px;
+    }
+    .slz-list-logo .item {
+        padding: 0 10px;
+        margin-top: 20px;
+        transition: all 0.3s ease;
+    }
+
+    .slz-list-logo .link {
+        display: block;
+    }
+
+    .slz-list-logo .link img {
+        margin: 0 auto;
+    }
+    .slz-list-block{
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px);
+    }
+    .slz-list-logo:hover .item {
+        filter: grayscale(100%);
+        opacity: 0.5;
+    }
+    .slz-list-logo .item:hover {
+        opacity: 1;
+        filter: grayscale(0);
+    }
+
+/*----------  1.2. partner slider  ----------*/
+
+    .slz-partner-carousel .slick-list {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .slz-partner-carousel .slick-list .slick-slide {
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .slz-partner-carousel .slick-list .slick-slide img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+   .slz-partner-carousel .slick-list:hover .slick-slide{
+            opacity: 0.5;
+            filter: grayscale(100%);
+   }
+   .slz-partner-carousel .slick-list .slick-slide:hover{
+            opacity: 1;
+            filter: grayscale(0);
+   }
+
