@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # Webalizer V2.23-08 Incremental Data - 03/14/2017 20:46:06
 2017 3 14 20 46 6
 15809 14962 16 729 46 8 129370296 363 35 0
 7 292 1435 7 14
+=======
+# Webalizer V2.23-08 Incremental Data - 03/08/2017 23:27:44
+2017 3 8 23 27 44
+25 16 2 8 3 2 129021 9 4 0
+1 1 20 7 8
+>>>>>>> a450b1752851382ae582c5b44c19ade60494dd9e
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -11,11 +18,14 @@
 24 16 128221 2 8 3
 1 0 800 1 1 1
 0 0 0 0 0 0
+<<<<<<< HEAD
 4998 4942 48679599 5 85 8
 1732 1732 9942185 4 9 3
 3578 3367 35512025 4 92 4
 1989 1802 14596690 3 72 5
 3487 3103 20510776 7 96 11
+=======
+>>>>>>> a450b1752851382ae582c5b44c19ade60494dd9e
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -33,6 +43,7 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
+<<<<<<< HEAD
 0 0 0 0
 156 156 96319 0
 343 343 198723 0
@@ -61,6 +72,43 @@
 0
 0
 14962
+=======
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+11 8 63311 3
+13 8 64910 5
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 800 1
+0
+0
+0
+16
+0
+0
+>>>>>>> a450b1752851382ae582c5b44c19ade60494dd9e
 0
 0
 0
@@ -68,10 +116,15 @@
 0
 0
 0
+<<<<<<< HEAD
 4
 0
 0
 834
+=======
+0
+0
+>>>>>>> a450b1752851382ae582c5b44c19ade60494dd9e
 0
 0
 0
@@ -99,6 +152,7 @@
 0
 0
 # -urls- 
+<<<<<<< HEAD
 /wp-content/uploads/2013/06/woocommerce12-300x300.png
 1 1 0 25044 0 0
 /wp-content/uploads/2016/12/slide2-300x156.jpg
@@ -1742,6 +1796,51 @@ Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5
 0 3
 Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Saf
 0 789
+=======
+/mittwald_system_pages/img/seiten.png
+1 2 0 25612 0 0
+/mittwald_system_pages/img/back-gradient.jpg
+1 2 0 2116 0 0
+/
+0 2 0 1606 2 0
+/mittwald_system_pages/img/unten.png
+1 2 0 9374 0 0
+/mittwald_system_pages/img/oben.png
+1 2 0 2221 0 0
+/mittwald_system_pages/css/style.css
+0 2 0 3956 0 0
+/mittwald_system_pages/img/rad.jpg
+1 2 0 45983 0 0
+/mittwald_system_pages/img/verlauf.jpg
+1 2 0 30955 0 0
+# End Of Table - urls
+# -sites- (monthly)
+86.129.203.183
+0 11 8 63310 2 1489015664
+-
+123.201.16.182
+0 14 8 65711 2 1488879900
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+86.129.203.183
+0 1 0 800 1 1489015664
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 10
+http://wordpress.p389560.webspaceconfig.de/mittwald_system_pages/css/style.css
+0 12
+http://wordpress.p389560.webspaceconfig.de/
+0 3
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+0 14
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+0 11
+>>>>>>> a450b1752851382ae582c5b44c19ade60494dd9e
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings
